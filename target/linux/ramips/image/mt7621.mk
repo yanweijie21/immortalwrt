@@ -477,7 +477,7 @@ TARGET_DEVICES += dual-q_h721
 define Device/d-team_newifi-d2
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65216k
   DEVICE_VENDOR := Newifi
   DEVICE_MODEL := D2
   DEVICE_PACKAGES := kmod-mt7603e kmod-mt76x2e kmod-usb3 \
